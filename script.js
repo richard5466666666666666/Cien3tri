@@ -1,10 +1,11 @@
-// Dados fictícios sobre redes sociais
+// Dados atualizados sobre redes sociais em 2023 (em bilhões)
 const redesSociais = {
-    "Facebook": 2.99,  // bilhões
-    "YouTube": 2.68,   // bilhões
-    "WhatsApp": 2.05,  // bilhões
-    "Instagram": 2.01, // bilhões
-    "Twitter": 1.30    // bilhões
+    "Facebook": 2.96,  // bilhões
+    "YouTube": 2.70,   // bilhões
+    "WhatsApp": 2.00,  // bilhões
+    "Instagram": 2.00, // bilhões
+    "TikTok": 1.70,    // bilhões
+    "WeChat": 1.26     // bilhões
 };
 
 const redes = Object.keys(redesSociais);
@@ -16,14 +17,14 @@ const data = [{
     y: usuarios,
     type: 'bar',
     marker: {
-        color: '#4CAF50',
+        color: '#4CAF50',  // Cor das barras
     }
 }];
 
 // Layout do gráfico
 const layout = {
     title: {
-        text: 'Usuários Ativos por Rede Social (em bilhões)',
+        text: 'Usuários Ativos por Rede Social (em bilhões) - 2023',
         font: {
             size: 20
         }
